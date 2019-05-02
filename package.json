@@ -1,0 +1,35 @@
+{
+  "name": "tic-tac-toe",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack -w",
+    "webpack:production": "cross-env NODE_ENV=production webpack",
+    "server": "webpack-dev-server"
+  },
+  "keywords": [
+    "BuckleScript"
+  ],
+  "author": "David Kopal (https://github.com/codinglawyer)",
+  "contributors": [
+    "Philippe Lhoste (https://github.com/PhiLhoSoft)"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "reason-react": ">=0.7.0"
+  },
+  "devDependencies": {
+    "bs-platform": "^5.0.3",
+    "copy-webpack-plugin": "^5.0.3",
+    "cross-env": "^5.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.1.9"
+  }
+}
