@@ -34,7 +34,7 @@ let make = (~state: state, ~onMark, ~onRestart) => {
       switch (state.gameState) {
       | Playing(_) => React.null
       | _ =>
-        <button className="restart" onClick=onRestart>
+        <button className="restart" onClick=onRestart autoFocus=true>
           (toString("Restart"))
         </button>
       }

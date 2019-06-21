@@ -2,14 +2,11 @@
 
 ## About
 
-A simple Tic-Tac-Toe game written with ReasonML: https://reasonml.github.io/en and ReasonReact: https://reasonml.github.io/reason-react/en
-Based on code given on https://medium.freecodecamp.org/learn-reasonml-by-building-tic-tac-toe-in-react-334203dd513c
-with missing bits (CSS...) from https://github.com/codinglawyer/reason-tic-tac-toe
-adapted by PhiLhoSoft to ReasonReact >= 0.7.0, using React hooks,
-based on structure generated with `bsb -init tic-tac-toe -theme react-hooks`.
+A simple Tic-Tac-Toe game written with [ReasonML](https://reasonml.github.io/en) and [ReasonReact](https://reasonml.github.io/reason-react/en).
+Based on code given on [this article](https://medium.freecodecamp.org/learn-reasonml-by-building-tic-tac-toe-in-react-334203dd513c) with missing bits (CSS...) from [the corresponding repository](https://github.com/codinglawyer/reason-tic-tac-toe).
+Adapted by PhiLhoSoft to ReasonReact >= 0.7.0, using React hooks, based on structure generated with `bsb -init tic-tac-toe -theme react-hooks`.
 
-In bsconfig.json, I changed the field "in-source" from true to false.
-This outputs compiled JavaScript (*.bs.js) into the lib/js directory instead of leaving them spread all over the root src directory.
+In bsconfig.json, I changed the field "in-source" from true to false. This outputs compiled JavaScript (*.bs.js) into the lib/js directory instead of leaving them spread all over the root src directory.
 Also had to change `entry` to `./lib/js/src/Index.bs.js`,
 
 ## Run Project
